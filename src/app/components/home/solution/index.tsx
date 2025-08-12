@@ -15,7 +15,10 @@ function Solutions() {
 
   return (
     <section>
-      <div className='2xl:py-20 py-11'>
+      <div
+  className="relative w-full pt-44 2xl:pb-20 pb-10 before:absolute before:w-full before:h-full before:bg-linear-to-r before:from-blue_gradient before:via-white before:to-yellow_gradient before:rounded-full before:top-24 before:blur-3xl before:-z-10 dark:before:from-dark_blue_gradient dark:before:via-black dark:before:to-dark_yellow_gradient dark:before:rounded-full dark:before:blur-3xl dark:before:-z-10"
+>
+
         <div className='container'>
           <div
             ref={ref}
@@ -25,14 +28,15 @@ function Solutions() {
               className='flex flex-col gap-6 items-center md:max-w-3xl mx-auto'>
               <div className='flex flex-col gap-3 items-center text-center'>
                 <h2 className='text-3xl md:text-5xl dark:text-dark_black'>
-                  Innovative Solutions for{' '}
+                  Smart Solutions for {' '}
                   <span className='instrument-font italic font-normal dark:text-black/70'>
-                    Bold Brands
+                    Growing Businesses
                   </span>
                 </h2>
                 <p className='dark:text-dark_black'>
-                  Ready to elevate your brand? Let’s craft intelligent, 
-                  <br/>immersive experiences that leave a lasting impression through design, technology, and innovation.
+                  Ready to transform your vision into reality? <br/>
+                  We specialize in AI-driven development and agile MVP strategies to help businesses <br/>
+                  launch faster, scale smarter, and stand out through cutting-edge technology and purposeful design.
                 </p>
               </div>
               <Link

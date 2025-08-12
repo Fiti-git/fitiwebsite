@@ -11,7 +11,7 @@ function Brand() {
     {
       id: 2,
       name: 'Google',
-      src: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg',
+      src: 'https://www.svgrepo.com/show/448223/gcp.svg',
     },
     {
       id: 3,
@@ -42,7 +42,11 @@ function Brand() {
 
   return (
     <section>
-      <div className='2xl:py-20 py-11'>
+    
+        <div
+  className="relative w-full pt-44 2xl:pb-20 pb-10 before:absolute before:w-full before:h-full before:bg-linear-to-r before:from-blue_gradient before:via-white before:to-yellow_gradient before:rounded-full before:top-24 before:blur-3xl before:-z-10 dark:before:from-dark_blue_gradient dark:before:via-black dark:before:to-dark_yellow_gradient dark:before:rounded-full dark:before:blur-3xl dark:before:-z-10"
+>
+
         <div className='container'>
           <div className='gap-4'>
             <div className='flex justify-center text-center py-4 relative'>

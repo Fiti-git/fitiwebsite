@@ -24,15 +24,18 @@ function OnlinePresence() {
     }, [])
   return (
     <section id='work'>
-      <div className='2xl:py-20 py-11'>
+      <div
+  className="relative w-full pt-44 2xl:pb-20 pb-10 before:absolute before:w-full before:h-full before:bg-linear-to-r before:from-blue_gradient before:via-white before:to-yellow_gradient before:rounded-full before:top-24 before:blur-3xl before:-z-10 dark:before:from-dark_blue_gradient dark:before:via-black dark:before:to-dark_yellow_gradient dark:before:rounded-full dark:before:blur-3xl dark:before:-z-10"
+>
+
         <div className='container'>
           <div className='flex flex-col justify-center items-center gap-10 md:gap-20'>
-            <div className='max-w-2xl text-center'>
+            <div className='max-w-xl text-center'>
               <h2>
-                How we transformed a small business’s
+                Accelerating Business Transformation <br />
                 <span className='instrument-font italic font-normal dark:text-white/70'>
                   {' '}
-                  online presence
+                  Through AI and Agile MVP Development
                 </span>
               </h2>
             </div>

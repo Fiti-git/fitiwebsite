@@ -2,8 +2,11 @@ import Image from 'next/image'
 
 function CustomerStories() {
   return (
-    <section>
-      <div className='2xl:py-20 py-11'>
+    <section id='CustomerStories'>
+      <div
+  className="relative w-full pt-44 2xl:pb-20 pb-10 before:absolute before:w-full before:h-full before:bg-linear-to-r before:from-blue_gradient before:via-white before:to-yellow_gradient before:rounded-full before:top-24 before:blur-3xl before:-z-10 dark:before:from-dark_blue_gradient dark:before:via-black dark:before:to-dark_yellow_gradient dark:before:rounded-full dark:before:blur-3xl dark:before:-z-10"
+>
+
         <div className='container'>
           <div className='flex flex-col justify-center gap-10 md:gap-20'>
             <div className='mx-auto max-w-2xl flex items-center text-center'>

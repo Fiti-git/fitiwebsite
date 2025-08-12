@@ -16,6 +16,7 @@
     --color-gray-200: oklch(92.8% .006 264.531);
     --color-gray-300: oklch(87.2% .01 258.338);
     --color-gray-400: oklch(70.7% .022 261.325);
+    --color-gray-500: oklch(55.1% .027 264.364);
     --color-gray-800: oklch(27.8% .033 256.848);
     --color-black: #000;
     --color-white: #fff;
@@ -558,6 +559,10 @@
     margin-left: calc(var(--spacing) * 1.5);
   }
 
+  .ml-4 {
+    margin-left: calc(var(--spacing) * 4);
+  }
+
   .block {
     display: block;
   }
@@ -767,6 +772,10 @@
     scroll-margin: calc(var(--spacing) * 28);
   }
 
+  .list-inside {
+    list-style-position: inside;
+  }
+
   .list-disc {
     list-style-type: disc;
   }
@@ -881,6 +890,18 @@
 
   .gap-64 {
     gap: calc(var(--spacing) * 64);
+  }
+
+  :where(.space-y-1 > :not(:last-child)) {
+    --tw-space-y-reverse: 0;
+    margin-block-start: calc(calc(var(--spacing) * 1) * var(--tw-space-y-reverse));
+    margin-block-end: calc(calc(var(--spacing) * 1) * calc(1 - var(--tw-space-y-reverse)));
+  }
+
+  :where(.space-y-6 > :not(:last-child)) {
+    --tw-space-y-reverse: 0;
+    margin-block-start: calc(calc(var(--spacing) * 6) * var(--tw-space-y-reverse));
+    margin-block-end: calc(calc(var(--spacing) * 6) * calc(1 - var(--tw-space-y-reverse)));
   }
 
   .gap-x-6 {
@@ -1457,6 +1478,10 @@
     color: var(--color-gray-400);
   }
 
+  .text-gray-500 {
+    color: var(--color-gray-500);
+  }
+
   .text-green {
     color: var(--color-green);
   }
@@ -1505,6 +1530,10 @@
 
   .italic {
     font-style: italic;
+  }
+
+  .underline {
+    text-decoration-line: underline;
   }
 
   .opacity-0 {
@@ -2658,6 +2687,10 @@
     color: var(--color-dark_black);
   }
 
+  .dark\:text-gray-400:is(.dark *) {
+    color: var(--color-gray-400);
+  }
+
   .dark\:text-green:is(.dark *) {
     color: var(--color-green);
   }
@@ -3111,6 +3144,12 @@
   inherits: false
 }
 
+@property --tw-space-y-reverse {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0;
+}
+
 @property --tw-border-style {
   syntax: "*";
   inherits: false;
@@ -3421,6 +3460,7 @@
       --tw-rotate-z: initial;
       --tw-skew-x: initial;
       --tw-skew-y: initial;
+      --tw-space-y-reverse: 0;
       --tw-border-style: solid;
       --tw-font-weight: initial;
       --tw-shadow: 0 0 #0000;

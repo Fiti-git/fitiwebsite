@@ -52,8 +52,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 ;
 function CustomerStories() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+        id: "CustomerStories",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "2xl:py-20 py-11",
+            className: "relative w-full pt-44 2xl:pb-20 pb-10 before:absolute before:w-full before:h-full before:bg-linear-to-r before:from-blue_gradient before:via-white before:to-yellow_gradient before:rounded-full before:top-24 before:blur-3xl before:-z-10 dark:before:from-dark_blue_gradient dark:before:via-black dark:before:to-dark_yellow_gradient dark:before:rounded-full dark:before:blur-3xl dark:before:-z-10",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "container",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -72,18 +73,18 @@ function CustomerStories() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                        lineNumber: 12,
+                                        lineNumber: 15,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                lineNumber: 10,
+                                lineNumber: 13,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                            lineNumber: 9,
+                            lineNumber: 12,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -100,7 +101,7 @@ function CustomerStories() {
                                                     children: "Customer stories"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                    lineNumber: 21,
+                                                    lineNumber: 24,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -112,14 +113,14 @@ function CustomerStories() {
                                                                 "From strategy to execution, FITI delivered beyond expectations.",
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                     fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                                    lineNumber: 26,
+                                                                    lineNumber: 29,
                                                                     columnNumber: 84
                                                                 }, this),
                                                                 " Their AI-driven approach brought real innovation to our operations."
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                            lineNumber: 25,
+                                                            lineNumber: 28,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -130,7 +131,7 @@ function CustomerStories() {
                                                                     children: "Sanjeewa Hewage"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                                    lineNumber: 29,
+                                                                    lineNumber: 32,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -138,25 +139,25 @@ function CustomerStories() {
                                                                     children: "Arunalu Group of Companies"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                                    lineNumber: 30,
+                                                                    lineNumber: 33,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                            lineNumber: 28,
+                                                            lineNumber: 31,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                    lineNumber: 24,
+                                                    lineNumber: 27,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                            lineNumber: 20,
+                                            lineNumber: 23,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -168,12 +169,12 @@ function CustomerStories() {
                                                         children: "Facts & numbers"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                        lineNumber: 38,
+                                                        lineNumber: 41,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                    lineNumber: 37,
+                                                    lineNumber: 40,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -184,7 +185,7 @@ function CustomerStories() {
                                                             children: "96%"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                            lineNumber: 43,
+                                                            lineNumber: 46,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -192,25 +193,25 @@ function CustomerStories() {
                                                             children: "Clients saw improved performance with our AI-driven solutions."
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                            lineNumber: 46,
+                                                            lineNumber: 49,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                    lineNumber: 42,
+                                                    lineNumber: 45,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                            lineNumber: 36,
+                                            lineNumber: 39,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                    lineNumber: 19,
+                                    lineNumber: 22,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -226,7 +227,7 @@ function CustomerStories() {
                                                         children: "Engineering & Innovation"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                        lineNumber: 55,
+                                                        lineNumber: 58,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -234,7 +235,7 @@ function CustomerStories() {
                                                         children: "Projects delivered with cutting-edge tech and scalable architecture."
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                        lineNumber: 58,
+                                                        lineNumber: 61,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -247,23 +248,23 @@ function CustomerStories() {
                                                             unoptimized: true
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                            lineNumber: 62,
+                                                            lineNumber: 65,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                        lineNumber: 61,
+                                                        lineNumber: 64,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                lineNumber: 54,
+                                                lineNumber: 57,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                            lineNumber: 53,
+                                            lineNumber: 56,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -277,7 +278,7 @@ function CustomerStories() {
                                                             children: "Customer stories"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                            lineNumber: 76,
+                                                            lineNumber: 79,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -285,13 +286,13 @@ function CustomerStories() {
                                                             children: "Partnering with FITI was the turning point for our platform. Their tech expertise and commitment helped us scale faster than expected."
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                            lineNumber: 79,
+                                                            lineNumber: 82,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                    lineNumber: 75,
+                                                    lineNumber: 78,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -302,7 +303,7 @@ function CustomerStories() {
                                                             children: "Hazan"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                            lineNumber: 84,
+                                                            lineNumber: 87,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -310,42 +311,42 @@ function CustomerStories() {
                                                             children: "CEO, Ecolvix"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                            lineNumber: 85,
+                                                            lineNumber: 88,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                                    lineNumber: 83,
+                                                    lineNumber: 86,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                            lineNumber: 74,
+                                            lineNumber: 77,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                                    lineNumber: 52,
+                                    lineNumber: 55,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                            lineNumber: 18,
+                            lineNumber: 21,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                    lineNumber: 8,
+                    lineNumber: 11,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/components/home/customer-stories/index.tsx",
-                lineNumber: 7,
+                lineNumber: 10,
                 columnNumber: 9
             }, this)
         }, void 0, false, {

@@ -23,7 +23,7 @@ function Brand() {
         {
             id: 2,
             name: 'Google',
-            src: 'https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg'
+            src: 'https://www.svgrepo.com/show/448223/gcp.svg'
         },
         {
             id: 3,
@@ -53,7 +53,7 @@ function Brand() {
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "2xl:py-20 py-11",
+            className: "relative w-full pt-44 2xl:pb-20 pb-10 before:absolute before:w-full before:h-full before:bg-linear-to-r before:from-blue_gradient before:via-white before:to-yellow_gradient before:rounded-full before:top-24 before:blur-3xl before:-z-10 dark:before:from-dark_blue_gradient dark:before:via-black dark:before:to-dark_yellow_gradient dark:before:rounded-full dark:before:blur-3xl dark:before:-z-10",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "container",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -66,12 +66,12 @@ function Brand() {
                                 children: "Powered by leading technologies"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/home/brand/index.tsx",
-                                lineNumber: 49,
+                                lineNumber: 53,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/home/brand/index.tsx",
-                            lineNumber: 48,
+                            lineNumber: 52,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -92,39 +92,39 @@ function Brand() {
                                             className: "max-h-12 object-contain"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/home/brand/index.tsx",
-                                            lineNumber: 67,
+                                            lineNumber: 71,
                                             columnNumber: 21
                                         }, this)
                                     }, index, false, {
                                         fileName: "[project]/src/app/components/home/brand/index.tsx",
-                                        lineNumber: 66,
+                                        lineNumber: 70,
                                         columnNumber: 19
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/app/components/home/brand/index.tsx",
-                                lineNumber: 57,
+                                lineNumber: 61,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/home/brand/index.tsx",
-                            lineNumber: 56,
+                            lineNumber: 60,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/home/brand/index.tsx",
-                    lineNumber: 47,
+                    lineNumber: 51,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/components/home/brand/index.tsx",
-                lineNumber: 46,
+                lineNumber: 50,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/app/components/home/brand/index.tsx",
-            lineNumber: 45,
-            columnNumber: 7
+            lineNumber: 46,
+            columnNumber: 9
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/components/home/brand/index.tsx",
@@ -231,7 +231,7 @@ function HeroSection() {
     }["HeroSection.useEffect"], []);
     const bottomAnimation = {
         initial: {
-            y: '20%',
+            y: '30%',
             opacity: 0
         },
         animate: {
@@ -240,7 +240,7 @@ function HeroSection() {
         },
         transition: {
             duration: 1,
-            delay: 0.8
+            delay: 0.2
         }
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -534,7 +534,7 @@ function Innovation() {
         id: "services",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             ref: ref,
-            className: "2xl:py-20 py-11",
+            className: "relative w-full pt-44 2xl:pb-20 pb-10 before:absolute before:w-full before:h-full before:bg-linear-to-r before:from-blue_gradient before:via-white before:to-yellow_gradient before:rounded-full before:top-24 before:blur-3xl before:-z-10 dark:before:from-dark_blue_gradient dark:before:via-black dark:before:to-dark_yellow_gradient dark:before:rounded-full dark:before:blur-3xl dark:before:-z-10",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "container",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -556,25 +556,25 @@ function Innovation() {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                         fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                                        lineNumber: 45,
+                                                        lineNumber: 48,
                                                         columnNumber: 21
                                                     }, this),
                                                     "intelligent solutions"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                                lineNumber: 44,
+                                                lineNumber: 47,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                        lineNumber: 42,
+                                        lineNumber: 45,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                    lineNumber: 39,
+                                    lineNumber: 42,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -592,12 +592,12 @@ function Innovation() {
                                                         width: 40
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                                        lineNumber: 58,
+                                                        lineNumber: 61,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                                    lineNumber: 57,
+                                                    lineNumber: 60,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -608,41 +608,41 @@ function Innovation() {
                                                                     line,
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                         fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                                                        lineNumber: 70,
+                                                                        lineNumber: 73,
                                                                         columnNumber: 31
                                                                     }, this)
                                                                 ]
                                                             }, i, true, {
                                                                 fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                                                lineNumber: 68,
+                                                                lineNumber: 71,
                                                                 columnNumber: 29
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                                        lineNumber: 66,
+                                                        lineNumber: 69,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                                    lineNumber: 65,
+                                                    lineNumber: 68,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                            lineNumber: 54,
+                                            lineNumber: 57,
                                             columnNumber: 21
                                         }, this);
                                     })
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                    lineNumber: 49,
+                                    lineNumber: 52,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                            lineNumber: 38,
+                            lineNumber: 41,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -655,14 +655,14 @@ function Innovation() {
                                         "From idea to impact ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                            lineNumber: 84,
+                                            lineNumber: 87,
                                             columnNumber: 37
                                         }, this),
                                         " let’s build something remarkable together."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                    lineNumber: 83,
+                                    lineNumber: 86,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -677,7 +677,7 @@ function Innovation() {
                                                     children: "Let’s Collaborate"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                                    lineNumber: 90,
+                                                    lineNumber: 93,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -696,7 +696,7 @@ function Innovation() {
                                                             className: " transition-colors duration-200 ease-in-out group-hover:fill-white"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                                            lineNumber: 100,
+                                                            lineNumber: 103,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -708,19 +708,19 @@ function Innovation() {
                                                             className: "group-hover:stroke-black"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                                            lineNumber: 107,
+                                                            lineNumber: 110,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                                    lineNumber: 93,
+                                                    lineNumber: 96,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                            lineNumber: 87,
+                                            lineNumber: 90,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -732,7 +732,7 @@ function Innovation() {
                                                     children: "View Portfolio"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                                    lineNumber: 120,
+                                                    lineNumber: 123,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -750,7 +750,7 @@ function Innovation() {
                                                             fill: "white"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                                            lineNumber: 130,
+                                                            lineNumber: 133,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -761,42 +761,42 @@ function Innovation() {
                                                             strokeLinejoin: "round"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                                            lineNumber: 131,
+                                                            lineNumber: 134,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                                    lineNumber: 123,
+                                                    lineNumber: 126,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                            lineNumber: 117,
+                                            lineNumber: 120,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                                    lineNumber: 86,
+                                    lineNumber: 89,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                            lineNumber: 80,
+                            lineNumber: 83,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                    lineNumber: 37,
+                    lineNumber: 40,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/components/home/innovation/index.tsx",
-                lineNumber: 36,
+                lineNumber: 39,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
@@ -866,37 +866,42 @@ function OnlinePresence() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "work",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "2xl:py-20 py-11",
+            className: "relative w-full pt-44 2xl:pb-20 pb-10 before:absolute before:w-full before:h-full before:bg-linear-to-r before:from-blue_gradient before:via-white before:to-yellow_gradient before:rounded-full before:top-24 before:blur-3xl before:-z-10 dark:before:from-dark_blue_gradient dark:before:via-black dark:before:to-dark_yellow_gradient dark:before:rounded-full dark:before:blur-3xl dark:before:-z-10",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "container",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "flex flex-col justify-center items-center gap-10 md:gap-20",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "max-w-2xl text-center",
+                            className: "max-w-xl text-center",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                 children: [
-                                    "How we transformed a small business’s",
+                                    "Accelerating Business Transformation ",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                        fileName: "[project]/src/app/components/home/online-presence/index.tsx",
+                                        lineNumber: 35,
+                                        columnNumber: 54
+                                    }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "instrument-font italic font-normal dark:text-white/70",
                                         children: [
                                             ' ',
-                                            "online presence"
+                                            "Through AI and Agile MVP Development"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/components/home/online-presence/index.tsx",
-                                        lineNumber: 33,
+                                        lineNumber: 36,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/home/online-presence/index.tsx",
-                                lineNumber: 31,
+                                lineNumber: 34,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/home/online-presence/index.tsx",
-                            lineNumber: 30,
+                            lineNumber: 33,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -917,7 +922,7 @@ function OnlinePresence() {
                                                     unoptimized: true
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/home/online-presence/index.tsx",
-                                                    lineNumber: 46,
+                                                    lineNumber: 49,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -935,23 +940,23 @@ function OnlinePresence() {
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/app/components/home/online-presence/index.tsx",
-                                                            lineNumber: 61,
+                                                            lineNumber: 64,
                                                             columnNumber: 27
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/components/home/online-presence/index.tsx",
-                                                        lineNumber: 60,
+                                                        lineNumber: 63,
                                                         columnNumber: 25
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/home/online-presence/index.tsx",
-                                                    lineNumber: 56,
+                                                    lineNumber: 59,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/components/home/online-presence/index.tsx",
-                                            lineNumber: 45,
+                                            lineNumber: 48,
                                             columnNumber: 21
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -962,7 +967,7 @@ function OnlinePresence() {
                                                     children: items.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/home/online-presence/index.tsx",
-                                                    lineNumber: 72,
+                                                    lineNumber: 75,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -972,41 +977,41 @@ function OnlinePresence() {
                                                             children: tag
                                                         }, index, false, {
                                                             fileName: "[project]/src/app/components/home/online-presence/index.tsx",
-                                                            lineNumber: 77,
+                                                            lineNumber: 80,
                                                             columnNumber: 27
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/home/online-presence/index.tsx",
-                                                    lineNumber: 75,
+                                                    lineNumber: 78,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/components/home/online-presence/index.tsx",
-                                            lineNumber: 71,
+                                            lineNumber: 74,
                                             columnNumber: 21
                                         }, this)
                                     ]
                                 }, index, true, {
                                     fileName: "[project]/src/app/components/home/online-presence/index.tsx",
-                                    lineNumber: 42,
+                                    lineNumber: 45,
                                     columnNumber: 19
                                 }, this);
                             })
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/home/online-presence/index.tsx",
-                            lineNumber: 39,
+                            lineNumber: 42,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/home/online-presence/index.tsx",
-                    lineNumber: 29,
+                    lineNumber: 32,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/components/home/online-presence/index.tsx",
-                lineNumber: 28,
+                lineNumber: 31,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
@@ -1068,7 +1073,7 @@ function Solutions() {
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "2xl:py-20 py-11",
+            className: "relative w-full pt-44 2xl:pb-20 pb-10 before:absolute before:w-full before:h-full before:bg-linear-to-r before:from-blue_gradient before:via-white before:to-yellow_gradient before:rounded-full before:top-24 before:blur-3xl before:-z-10 dark:before:from-dark_blue_gradient dark:before:via-black dark:before:to-dark_yellow_gradient dark:before:rounded-full dark:before:blur-3xl dark:before:-z-10",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "container",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1084,42 +1089,48 @@ function Solutions() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         className: "text-3xl md:text-5xl dark:text-dark_black",
                                         children: [
-                                            "Innovative Solutions for",
+                                            "Smart Solutions for ",
                                             ' ',
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "instrument-font italic font-normal dark:text-black/70",
-                                                children: "Bold Brands"
+                                                children: "Growing Businesses"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/home/solution/index.tsx",
-                                                lineNumber: 29,
+                                                lineNumber: 32,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/components/home/solution/index.tsx",
-                                        lineNumber: 27,
+                                        lineNumber: 30,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                         className: "dark:text-dark_black",
                                         children: [
-                                            "Ready to elevate your brand? Let’s craft intelligent,",
+                                            "Ready to transform your vision into reality? ",
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                 fileName: "[project]/src/app/components/home/solution/index.tsx",
-                                                lineNumber: 35,
-                                                columnNumber: 19
+                                                lineNumber: 37,
+                                                columnNumber: 64
                                             }, this),
-                                            "immersive experiences that leave a lasting impression through design, technology, and innovation."
+                                            "We specialize in AI-driven development and agile MVP strategies to help businesses ",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                fileName: "[project]/src/app/components/home/solution/index.tsx",
+                                                lineNumber: 38,
+                                                columnNumber: 102
+                                            }, this),
+                                            "launch faster, scale smarter, and stand out through cutting-edge technology and purposeful design."
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/components/home/solution/index.tsx",
-                                        lineNumber: 33,
+                                        lineNumber: 36,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/home/solution/index.tsx",
-                                lineNumber: 26,
+                                lineNumber: 29,
                                 columnNumber: 15
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1131,7 +1142,7 @@ function Solutions() {
                                         children: "Let’s Collaborate"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/home/solution/index.tsx",
-                                        lineNumber: 41,
+                                        lineNumber: 45,
                                         columnNumber: 17
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1150,7 +1161,7 @@ function Solutions() {
                                                 className: "fill-white transition-colors duration-200 ease-in-out group-hover:fill-black"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/home/solution/index.tsx",
-                                                lineNumber: 51,
+                                                lineNumber: 55,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
@@ -1162,35 +1173,35 @@ function Solutions() {
                                                 className: "stroke-[#1B1D1E] transition-colors duration-200 ease-in-out group-hover:stroke-white"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/home/solution/index.tsx",
-                                                lineNumber: 58,
+                                                lineNumber: 62,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/app/components/home/solution/index.tsx",
-                                        lineNumber: 44,
+                                        lineNumber: 48,
                                         columnNumber: 17
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/app/components/home/solution/index.tsx",
-                                lineNumber: 38,
+                                lineNumber: 42,
                                 columnNumber: 15
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/components/home/solution/index.tsx",
-                        lineNumber: 23,
+                        lineNumber: 26,
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/components/home/solution/index.tsx",
-                    lineNumber: 20,
+                    lineNumber: 23,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/components/home/solution/index.tsx",
-                lineNumber: 19,
+                lineNumber: 22,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
@@ -1264,7 +1275,7 @@ function WebResult() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "aboutus",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "2xl:py-20 py-11",
+            className: "relative w-full pt-44 2xl:pb-20 pb-10 before:absolute before:w-full before:h-full before:bg-linear-to-r before:from-blue_gradient before:via-white before:to-yellow_gradient before:rounded-full before:top-24 before:blur-3xl before:-z-10 dark:before:from-dark_blue_gradient dark:before:via-black dark:before:to-dark_yellow_gradient dark:before:rounded-full dark:before:blur-3xl dark:before:-z-10",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "container",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1279,14 +1290,14 @@ function WebResult() {
                                         "Helping startups and businesses scale with ",
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                             fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                            lineNumber: 38,
+                                            lineNumber: 41,
                                             columnNumber: 60
                                         }, this),
                                         "AI-powered, user-first solutions."
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                    lineNumber: 37,
+                                    lineNumber: 40,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1305,7 +1316,7 @@ function WebResult() {
                                                         }
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                                        lineNumber: 46,
+                                                        lineNumber: 49,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1313,29 +1324,29 @@ function WebResult() {
                                                         children: items.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                                        lineNumber: 53,
+                                                        lineNumber: 56,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, index, true, {
                                                 fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                                lineNumber: 43,
+                                                lineNumber: 46,
                                                 columnNumber: 21
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                        lineNumber: 41,
+                                        lineNumber: 44,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                    lineNumber: 40,
+                                    lineNumber: 43,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                            lineNumber: 36,
+                            lineNumber: 39,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1354,14 +1365,14 @@ function WebResult() {
                                                     duration: 2
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                                    lineNumber: 65,
+                                                    lineNumber: 68,
                                                     columnNumber: 29
                                                 }, this) : '0',
                                                 "%"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                            lineNumber: 63,
+                                            lineNumber: 66,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1369,20 +1380,20 @@ function WebResult() {
                                             children: "On-Time Delivery Rate"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                            lineNumber: 68,
+                                            lineNumber: 71,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "hidden md:block absolute right-0 top-1/2 transform -translate-y-1/2 h-28 w-px bg-dark_black/10 dark:bg-white/10"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                            lineNumber: 72,
+                                            lineNumber: 75,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                    lineNumber: 62,
+                                    lineNumber: 65,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1397,20 +1408,20 @@ function WebResult() {
                                                     duration: 3
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                                    lineNumber: 77,
+                                                    lineNumber: 80,
                                                     columnNumber: 29
                                                 }, this) : '0',
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("sup", {
                                                     children: "+"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                                    lineNumber: 78,
+                                                    lineNumber: 81,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                            lineNumber: 75,
+                                            lineNumber: 78,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1418,20 +1429,20 @@ function WebResult() {
                                             children: "Countries Reached"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                            lineNumber: 80,
+                                            lineNumber: 83,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "hidden md:block absolute right-0 top-1/2 transform -translate-y-1/2 h-28 w-px bg-dark_black/10 dark:bg-white/10"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                            lineNumber: 83,
+                                            lineNumber: 86,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                    lineNumber: 74,
+                                    lineNumber: 77,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1446,7 +1457,7 @@ function WebResult() {
                                                     duration: 5
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                                    lineNumber: 88,
+                                                    lineNumber: 91,
                                                     columnNumber: 29
                                                 }, this) : '0',
                                                 "/",
@@ -1456,13 +1467,13 @@ function WebResult() {
                                                     duration: 3
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                                    lineNumber: 90,
+                                                    lineNumber: 93,
                                                     columnNumber: 29
                                                 }, this) : '0'
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                            lineNumber: 86,
+                                            lineNumber: 89,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1470,30 +1481,30 @@ function WebResult() {
                                             children: "Support & Monitoring"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                            lineNumber: 92,
+                                            lineNumber: 95,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                                    lineNumber: 85,
+                                    lineNumber: 88,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                            lineNumber: 61,
+                            lineNumber: 64,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                    lineNumber: 35,
+                    lineNumber: 38,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/app/components/home/web-result/index.tsx",
-                lineNumber: 34,
+                lineNumber: 37,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
