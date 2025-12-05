@@ -1,25 +1,12 @@
-# Use official Node 20 Alpine image
-FROM node:20-alpine
-
-# Set working directory
+FROM node:20-alpine AS build
 WORKDIR /app
-
-# Copy package files and install dependencies
 COPY package*.json ./
 RUN npm ci
-
-# Copy the rest of the project
 COPY . .
-
-# Build the Next.js project
 RUN npm run build
+RUN npm run export
 
-# Set environment variables
-ENV NODE_ENV=production
-ENV PORT=3200
-
-# Expose the port
+FROM nginx:alpine
+COPY --from=build /app/out /usr/share/nginx/html
 EXPOSE 3200
-
-# Start the Next.js server
-CMD ["npm", "start"]
+CMD ["nginx", "-g", "daemon off;"]
