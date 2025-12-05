@@ -36,8 +36,8 @@ const footerData = {
     contactDetails: {
         name:"Contact Details",
         address: "40/1/C, Uguressapitiya Katugasstota SRI LANKA",
-        email: "contact@fiti.solutions",
-        phone: "0094 76 703 2122"
+        email: "fitisolutions@gmail.com",
+        phone: "0094 74 163 0650"
     },
     copyright: "©2025 FITI. All Rights Reserved"
 };
