@@ -86,7 +86,7 @@ function CustomerStories() {
                   <div className='flex flex-col gap-1'>
                     <p className='font-medium'>Hazan</p>
                     <p className='text-dark_black/60 dark:text-white/60 text-sm font-medium'>
-                      CEO, Ecolvix
+                      CEO, Evolvix
                     </p>
                   </div>
                 </div>
