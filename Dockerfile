@@ -1,33 +1,30 @@
-# Use official Node 20 image
+# Build stage
 FROM node:20-alpine AS builder
 
 WORKDIR /app
-
-# Install dependencies
 COPY package*.json ./
 RUN npm ci
-
-# Copy rest of the project
 COPY . .
-
-# Build Next.js for production
 RUN npm run build
 
-# ---------------------------
-# Production Image
-# ---------------------------
+# Production stage
 FROM node:20-alpine AS runner
 
 WORKDIR /app
 
 ENV NODE_ENV=production
 ENV PORT=3200
+ENV NODE_OPTIONS="--max-old-space-size=512"
+
 EXPOSE 3200
 
-# Copy only necessary build output (standalone mode)
 COPY --from=builder /app/.next/standalone ./ 
 COPY --from=builder /app/.next/static ./.next/static 
 COPY --from=builder /app/public ./public
 
-# Run the Next.js server
+RUN addgroup -S appgroup && adduser -S appuser -G appgroup
+USER appuser
+
+HEALTHCHECK --interval=30s --timeout=5s --start-period=5s CMD curl -f http://localhost:3200/ || exit 1
+
 CMD ["node", "server.js"]
